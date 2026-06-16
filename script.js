@@ -40,9 +40,7 @@ const products = [
     { id: 'p39', name: 'Nagi #7', price: 3000, category: 'Jerseys', image: 'Screenshot 2026-06-14 114925.png' },
     { id: 'p40', name: 'Team Z #11', price: 3000, category: 'Jerseys', image: 'Screenshot 2026-06-14 114943.png' },
     { id: 'p41', name: 'Team W #1', price: 3000, category: 'Jerseys', image: 'Screenshot 2026-06-14 115003.png' },
-    { id: 'p42', name: 'Barca Concept', price: 3000, category: 'Jerseys', image: 'Screenshot 2026-06-14 115030.png' }
-];
-
+    { id: 'p42', name: 'Barca Concept', price: 3000, category: 'Jerseys', image: 'Screenshot 2026-06-14 115030.png' 
 function render(list) {
     const grid = document.getElementById('product-grid');
     grid.innerHTML = list.map(p => `
